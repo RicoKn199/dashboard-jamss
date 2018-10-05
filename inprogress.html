@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Jamss</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <!-- nav -->
+      <div class=" col-xs-12 col-md-12">
+        <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">PT JATIM MUSTIKA SELA</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Dashboard</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Financial <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="createfinancial.html">Create</a></li>
+                  <li><a href="#">In Progress</a></li>
+                  <li><a href="#">Draft</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Real Cost <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+              <li><a href="#">History</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Setting <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+                <li><a href="#">Log out</a></li>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+      </div>
+          <!--  -->
+      </div>
+
+      <!-- Financial -->
+      <div class="col-md-12">
+        <div class="col-md-6">
+          <h4>Financial Summary In Progress</h4>
+        </div>
+        <div class="col-md-3">
+            <input type="text" class="form-control" placeholder="Sort By Date">
+        </div>
+        <div class="col-md-3">
+            <input type="text" class="form-control" placeholder="Search By Customer">
+        </div>
+      </div>
+      <!--  -->
+
+      <!-- Form -->
+      <div class="col-md-12 col-xs-7" id="panel-f">
+      <!--    Hover Rows  -->
+                  <div class="panel panel-default">
+                      <div class="panel-heading">
+                          <table width="96%" border="0">
+                            <tr>
+                              <td><i class="far fa-check-square"></i></td>
+                              <td>Customer</td>
+                              <td>Jenis Barang</td>
+                              <td>Jumlah Muatan</td>
+                              <td>Harga</td>
+                              <td>Date</td>
+                              <td>Action</td>
+                            </tr>
+                          </table>
+                      </div>
+                      <div class="panel-body">
+                          <div class="table-responsive">
+                              <div class="table-wrapper-scroll-y">
+                                <table class="table table-bordered table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td>PT JAYA MAKMUR SENTOSA</td>
+                                            <td>Batu Bara</td>
+                                            <td>7.500 MT</td>
+                                            <td>717.000.000</td>
+                                            <td>3/2/2019</td>
+                                            <td><a href="#">Send SPAL</a></td>
+                                            <td><a href="#">Send INVOICE</a></td>
+                                            <td><a href="#"><i class="fas fa-trash-alt"></a></i></td>
+                                        </tr>
+                                        <tr>
+                                          <td>PT JAYA MAKMUR SENTOSA</td>
+                                          <td>Batu Bara</td>
+                                          <td>7.500 MT</td>
+                                          <td>917.000.000</td>
+                                          <td>3/0/2019</td>
+                                          <td><a href="#">Send SPAL</a></td>
+                                          <td><a href="#">Send INVOICE</a></td>
+                                          <td><a href="#"><i class="fas fa-trash-alt"></a></i></td>
+                                        </tr>
+                                        <tr>
+                                          <td>PT JAYA MAKMUR SENTOSA</td>
+                                          <td>Batu</td>
+                                          <td>7.500 MT</td>
+                                          <td>117.000.000</td>
+                                          <td>3/2/2019</td>
+                                          <td><a href="#">Send SPAL</a></td>
+                                          <td><a href="#">Send INVOICE</a></td>
+                                          <td><a href="#"><i class="fas fa-trash-alt"></a></i></td>
+                                        </tr>
+                                        <tr>
+                                          <td>PT JAYA MAKMUR SENTOSA</td>
+                                          <td>Bara</td>
+                                          <td>7.500 MT</td>
+                                          <td>707.000.000</td>
+                                          <td>3/2/2019</td>
+                                          <td><a href="#">Send SPAL</a></td>
+                                          <td><a href="#">Send INVOICE</a></td>
+                                          <td><a href="#"><i class="fas fa-trash-alt"></a></i></td>
+                                        </tr>
+                                        <tr>
+                                          <td>PT JAYA MAKMUR SENTOSA</td>
+                                          <td>Batu Bara</td>
+                                          <td>7.500 MT</td>
+                                          <td>799.000.000</td>
+                                          <td>3/2/2019</td>
+                                          <td><a href="#">Send SPAL</a></td>
+                                          <td><a href="#">Send INVOICE</a></td>
+                                          <td><a href="#"><i class="fas fa-trash-alt"></a></i></td>
+                                        </tr>
+                                        <tr>
+                                          <td>PT JAYA MAKMUR SENTOSA</td>
+                                          <td>Batu Bara</td>
+                                          <td>7.500 MT</td>
+                                          <td>317.000.000</td>
+                                          <td>3/2/2019</td>
+                                          <td><a href="#">Send SPAL</a></td>
+                                          <td><a href="#">Send INVOICE</a></td>
+                                          <td><a href="#"><i class="fas fa-trash-alt"></a></i></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- End  Hover Rows  -->
+              </div>
+      <!--  -->
+
+
+        <!--  -->
+        <div class="row">
+          <div class="col-md-12 col-xs-12">
+            <div id="footer">
+            <p >PT JATIM MUSTIKA SELA</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
